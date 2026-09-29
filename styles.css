@@ -32,6 +32,12 @@ section a {
     margin: 5px;
     text-decoration: none;
     border-radius: 8px;
+    transition: 0.3s;
+}
+section a:hover {
+    background-color: #a96876;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 #micha {
     background-color: #f8eef0;
@@ -57,4 +63,34 @@ section a {
     display: block;
     margin: 20px 0;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+li {
+    padding: 8px 12px;
+    margin: 5px 0;
+    transition: 0.3s;
+}
+li:hover {
+    transform: translateX(5px);
+    color: #8b4f5c;
+    background-color: #f8eef0;
+    border-radius: 8px;
+}
+figcaption {
+    font-style: italic;
+    text-align: left;
+    color: #701e30;
+    margin-top: 10px;
+    max-width: 300px;
+}
+.intereses li:first-child::before {
+    content: "🎧";
+    margin-right: 10px;
+}
+.intereses li:nth-child(2)::before {
+    content: "🎬";
+    margin-right: 10px;
+}
+.intereses li:nth-child(3)::before {
+    content: "☕";
+    margin-right: 10px;
 }
