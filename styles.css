@@ -2,6 +2,8 @@
 body {
     background-color: #fdf9f9;
     font-family: Arial, sans-serif; 
+    max-width: 1100px;
+    margin: auto;
     header {
     text-align: center;
     padding: 40px 20px;
@@ -93,4 +95,28 @@ figcaption {
 .intereses li:nth-child(3)::before {
     content: "☕";
     margin-right: 10px;
+}
+.tecnologias li {
+    background-color: white;
+    border: 1px solid #e3cdd2;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 8px 0;
+}
+.objetivos {
+    background-color: #ebbbc1;
+    border-left: 5px solid #8b4f5c;
+    padding: 25px;
+}
+.objetivos p {
+    font-size: 17px;
+    line-height: 1.6;
+    color: #5f454b;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    color: #6f4a52;
+    font-size: 14px;
 }
