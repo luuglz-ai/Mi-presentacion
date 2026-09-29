@@ -1,0 +1,13 @@
+body {
+    background-color: #fdf9f9;
+    font-family: Arial, sans-serif; 
+} 
+h1, h2 {
+    color: #8d3346;
+}
+h1 {
+    font-size: 40px;
+}
+section {
+    padding: 20px;
+}
