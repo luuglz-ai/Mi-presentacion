@@ -1,24 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+/* Estilos generales */ 
 body {
     background-color: #fdf9f9;
     font-family: Arial, sans-serif; 
     max-width: 1100px;
     margin: auto;
-    header {
+}
+
+header {
     text-align: center;
     padding: 40px 20px;
     background-color: #f8eef0;
     border-radius: 15px;
     margin: 20px;
 }
-
-} 
+/* Títulos */
 h1, h2 {
     color: #8d3346;
 }
 h1 {
     font-size: 40px;
 }
+/* Secciones */
 section {
     padding: 20px;
      margin: 20px;
@@ -26,12 +29,13 @@ section {
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+/* Botones y enlaces */
 section a {
     display: inline-block;
     background-color: #8b4f5c;
     color: white;
     padding: 10px 15px;
-    margin: 5px;
+    margin: 8px;
     text-decoration: none;
     border-radius: 8px;
     transition: 0.3s;
@@ -41,11 +45,13 @@ section a:hover {
     transform: translateY(-3px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
+/* Sección de Micha */
 #micha {
     background-color: #f8eef0;
     border: 2px solid #8b4f5c;
     border-radius: 10px;
 }
+/* Nombre */
 .name {
     font-family: 'Great Vibes', cursive;
     font-size: 48px;
@@ -66,9 +72,10 @@ section a:hover {
     margin: 20px 0;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
+/* Listas */
 li {
     padding: 8px 12px;
-    margin: 5px 0;
+    margin: 8px 0;
     transition: 0.3s;
 }
 li:hover {
@@ -103,6 +110,7 @@ figcaption {
     padding: 10px 15px;
     margin: 8px 0;
 }
+/* Objetivos */
 .objetivos {
     background-color: #ebbbc1;
     border-left: 5px solid #8b4f5c;
@@ -113,10 +121,19 @@ figcaption {
     line-height: 1.6;
     color: #5f454b;
 }
+/* Pie de página */
 footer {
     text-align: center;
     padding: 20px;
     margin-top: 30px;
     color: #6f4a52;
     font-size: 14px;
+}
+/* Redes sociales */
+section ul {
+    padding-left: 20px;
+}
+section ul li {
+    list-style: none;
+    display: inline-block;
 }
