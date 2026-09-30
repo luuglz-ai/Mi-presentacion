@@ -14,9 +14,18 @@ header {
     border-radius: 15px;
     margin: 20px;
 }
+header p {
+    max-width: 700px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
 /* Títulos */
 h1, h2 {
     color: #8d3346;
+}
+section h2 {
+    border-bottom: 2px solid #d9a5ae;
+    padding-bottom: 8px;
 }
 h1 {
     font-size: 40px;
@@ -110,6 +119,10 @@ figcaption {
     padding: 10px 15px;
     margin: 8px 0;
 }
+.tecnologias li:hover {
+    transform: translateX(5px);
+    border-color: #8b4f5c;
+}
 /* Objetivos */
 .objetivos {
     background-color: #ebbbc1;
@@ -136,4 +149,10 @@ section ul {
 section ul li {
     list-style: none;
     display: inline-block;
+}
+section p {
+    line-height: 1.6;
+}
+section p + p {
+    margin-top: 15px;
 }
